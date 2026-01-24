@@ -1,0 +1,292 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@100..900&display=swap');
+
+.container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: #EDF7FA;
+    padding: 2rem 0;
+}
+
+.wrapper1 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 54rem;
+}
+
+.header {
+    display: flex;
+    width: 100%;
+    gap: 32.4375rem;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 1rem;
+}
+
+.btn {
+    display: inline-flex;
+}
+
+.sectionTitle {
+    display: flex;
+    color: var(--dark);
+    font-family: heebo;
+    font-weight: regular;
+    font-size: 1.375rem;
+    line-height: 2;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.cardLists {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    width: 100%;
+    /* justify-content: space-between; */
+    gap: 1.5rem;
+}
+
+.cardWrapper {
+    background-color: var(--white);
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    width: 26.125rem;
+    height: 18.4375rem;
+    padding: 1.5rem;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+.cardTitle {
+    display: flex;
+    color: var(--dark);
+    font-family: heebo;
+    font-size: 1.375rem;
+    font-weight: bold;
+    max-width: 22.1875rem;
+    height: 5.3125rem;
+    line-height: 28px;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.cardDetails1Wrapper {
+display: flex;
+justify-content: flex-start;
+align-items: center;
+margin: 8px 0;
+}
+
+.cardDetails1 {
+display: flex;
+font-family: heebo;
+font-size: .875rem;
+font-weight: regular;
+}
+
+.cardDetails2 {
+display: flex;
+font-family: heebo;
+font-size: 1rem;
+font-weight: regular;
+align-items: flex-start;
+line-height: 1.5;
+width: 22.1875rem;
+height: 6rem;
+flex-direction: row;
+flex-wrap: wrap;
+text-align: justify;
+}
+
+.line {
+    display: flex;
+    height: 1.3125rem;
+    width: .0625rem;
+    background-color: #000000;
+    margin: 0 1.625rem;
+
+}
+@media (max-width: 600px) {
+
+.container {
+    margin: 0;
+    padding: 0;
+    background-color: #EDF7FA;
+}
+
+.wrapper1 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    padding: 0 .75rem 2rem .75rem;
+    align-items: center;
+    background-color: #EDF7FA;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: .75rem;
+    align-items: center;
+    height: 60px;
+    flex-wrap: nowrap;
+    gap: 0;
+}
+
+.btn {
+    display: none;
+}
+
+.sectionTitle {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    color: var(--dark);
+    font-family: heebo;
+    font-weight: regular;
+    font-size: 1.125rem;
+    justify-content: center;
+    text-align: center;
+}
+
+.cardLists {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    width: 100%;
+    /* justify-content: space-between; */
+    gap: 1.5rem;
+}
+
+.cardWrapper {
+    background-color: var(--white);
+    display: flex;
+    flex-direction: column;
+    max-width: 22.125rem;
+    height: 16.625rem;
+    padding: 1.5rem;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+.cardTitle {
+    display: flex;
+    flex-wrap: wrap;
+    color: var(--dark);
+    font-family: heebo;
+    font-size: 1.375rem;
+    font-weight: bold;
+    width: 20.4375rem;
+    height: 3.75rem;
+    line-height: 28px;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.cardDetails1 {
+    font-size: 1rem;
+}
+
+.cardDetails2 {
+display: flex;
+font-family: heebo;
+font-size: 1rem;
+font-weight: regular;
+align-items: flex-start;
+line-height: 1.5;
+height: 6rem;
+flex-direction: row;
+flex-wrap: wrap;
+text-align: justify;
+max-width: 19.625rem;
+
+}
+
+}
+
+@media (min-width: 601px) and (max-width: 900px) {
+
+
+    .cardWrapper {
+    background-color: var(--white);
+    display: flex;
+    flex-direction: column;
+    max-width: 280px;
+    height: 15rem;
+    padding: 1.5rem;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+.cardDetails2 {
+display: flex;
+font-family: heebo;
+font-size: .875rem;
+font-weight: regular;
+align-items: flex-start;
+width: auto;
+line-height: 1.4;
+height: 6rem;
+flex-direction: row;
+flex-wrap: wrap;
+text-align: justify;
+}
+
+.line {
+    margin: 0;
+}
+
+.cardDetails1Wrapper {
+display: flex;
+justify-content: space-between;
+align-items: center;
+margin: 8px 0;
+}
+
+.cardTitle {
+    display: flex;
+    color: var(--dark);
+    font-family: heebo;
+    font-size: 1.25rem;
+    font-weight: bold;
+    height: 5.3125rem;
+    line-height: 28px;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.wrapper1 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    min-width: 601px;
+    max-width: 700px;
+}
+
+.cardLists {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    place-items: center;
+    gap: 1rem
+}
+
+.header {
+    display: flex;
+    gap: 0;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 1rem;
+    padding-left: 2rem;
+    padding-right: 32px;
+    /* margin: 16px; */
+}
+
+}

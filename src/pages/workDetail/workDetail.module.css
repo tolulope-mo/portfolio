@@ -1,0 +1,83 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 42.5625rem;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin-top: 5rem;
+}
+
+.heading1 {
+    display: flex;
+    max-width: 31.625rem;
+    font-family: heebo;
+    font-weight: bold;
+    font-size: 2.125rem;
+    margin: 0;
+}
+
+.lineTwo {
+    display: flex;
+    gap: 1.625rem;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 1rem 0 1rem 0;
+}
+
+.workYear {
+display: flex;
+width: 3.875rem;
+height: 1.5625rem;
+border-radius: 1rem;
+background-color: #142850;
+color: var(--white);
+justify-content: center;
+align-items: center;
+font-family: heebo;
+font-size: 1.125rem;
+font-weight: bolder;
+}
+
+.workCategory {
+    display: flex;
+    color: Var(--light);
+    font-family: heebo;
+    font-size: 1.25rem;
+    font-weight: 300;
+}
+
+.workDetails {
+    display: flex;
+    color: Var(--dark);
+    font-family: heebo;
+    font-size: 1rem;
+    font-weight: regular;
+    flex-wrap: wrap;
+    line-height: 1.4;
+}
+
+.img {
+    display: flex;
+    width: 100%;
+    height: 28.75rem;
+    margin-top: 1.5rem;
+}
+
+.heading2 {
+display: flex;
+font-weight: 400;
+font-size: 2.125rem;
+font-family: heebo;
+margin: 3.375rem 0 1.5rem 0;
+}
+
+.heading3 {
+display: flex;
+font-weight: 400;
+font-size: 1.5rem;
+font-family: heebo;
+}

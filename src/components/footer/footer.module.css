@@ -1,0 +1,28 @@
+.text {
+    display: flex;
+    font-family: heebo;
+    color: var(--dark);
+    font-size: .875rem;
+    font-weight: regular;
+    text-align: center;
+    justify-content: center;
+}
+
+.iconList {
+    display: flex;
+    flex-direction: row;
+    gap: 1.5rem;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    padding: 3rem 0;
+    justify-content: center;
+}
+
+.icon {
+    list-style: none;
+}
