@@ -46,7 +46,6 @@ const PagesNav = [
 
 ]
 
-
 function NavBar () {
 
     const [menu, setMenu] = useState(false)
@@ -55,17 +54,12 @@ function NavBar () {
         setMenu(prev=> !prev)
     }
 
-    
-
     return (
         <header className={styles.header}>
             
         <div onClick={displayMenu} className={styles.menuIcon} >
         <img className={styles.image} src={menu ? close : menuImg} />
         </div>
-        
-        
-        
 
         <div className={ menu ? styles.container2: styles.container}> 
 

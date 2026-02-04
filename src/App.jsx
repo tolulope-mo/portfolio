@@ -10,7 +10,7 @@ import Home from './pages/home/home'
 import WorkDetail from './pages/workDetail/workDetail'
 import Resume from './pages/resume/resume'
 function App() {
-  const [count, setCount] = useState(0)
+  
 
   return (
     <>
